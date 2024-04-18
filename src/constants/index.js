@@ -39,33 +39,33 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Que es Fluxy",
     url: "#features",
   },
-  {
-    id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
+  // {
+  //   id: "1",
+  //   title: "Pricing",
+  //   url: "#pricing",
+  // },
   {
     id: "2",
-    title: "How to use",
+    title: "Descarga la App",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Fotos",
     url: "#roadmap",
   },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "4",
+  //   title: "New account",
+  //   url: "#signup",
+  //   onlyMobile: true,
+  // },
   {
     id: "5",
-    title: "Sign in",
+    title: "ingresar",
     url: "#login",
     onlyMobile: true,
   },
