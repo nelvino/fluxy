@@ -15,13 +15,13 @@ import Generating from "./Generating";
 const Services = () => {
   return (
     <Section id="how-to-use">
-      <div className="container">
-      <img
+      <div className="container mt-10">
+      {/* <img
             className="mx-auto mb-10"
             src={subiteSlogan}
             width={624}
             height={10}
-          />
+          /> */}
         {/* <Heading
           title="Generative AI made for creators."
           text="Brainwave unlocks the potential of AI-powered applications"

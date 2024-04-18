@@ -1,5 +1,5 @@
 import { background, curve, heroBackground, robot } from "../assets";
-import logoFluxy from "../assets/hero/logoFluxy.png";
+import logoFluxy from "../assets/hero/fluxy-logo-transparent.svg";
 import subiteSlogan from "../assets/hero/subite-y-entrena-volando.svg";
 import superFUNKtional from "../assets/hero/superFUNKtional.svg";
 import Button from "./Button";
@@ -17,13 +17,13 @@ const Hero = () => {
 
   return (
     <Section
-      className="h-screen pt-[12rem] -mt-[5.25rem]"
-      crosses
-      crossesOffset="lg:translate-y-[5.25rem]"
-      customPaddings
+      className="h-screen pt-[12rem] -mt-[5.25rem] mb-20"
+      // crosses
+      // crossesOffset="lg:translate-y-[5.25rem]"
+      // customPaddings
       id="hero"
     >
-      <div className="container lg:mt-10 lg:mb-20">
+      <div className="container md:pt-10 lg:pt-20 lg:mb-20">
         <img
           className="mx-auto mb-10 w-full"
           src={superFUNKtional}
@@ -31,22 +31,30 @@ const Hero = () => {
           height={10}
         />
       </div>
-      <div className="container relative bg-fluxyPurple" ref={parallaxRef}>
+      {/* <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-10 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6 relative text-fluxyOrange">
             Fluxy is landing soon in Buenos Aires, Argentina... {` `}
           </h1>
         </div>
+      </div> */}
+      <div className="container">
+        <img
+          className="mx-auto mb-10"
+          src={logoFluxy}
+          width={524}
+          // height={10}
+        />
       </div>
       {/* <CompanyLogos className="hidden relative z-10 mt-20 lg:block" /> */}
       <div className="">
-      <img
-            className="mx-auto mb-10"
-            src={subiteSlogan}
-            width={624}
-            height={10}
-          />
-          </div>
+        <img
+          className="mx-auto mb-10 px-10 md:px-2"
+          src={subiteSlogan}
+          width={624}
+          height={10}
+        />
+      </div>
       <div className="container relative mx-auto text-center">
         <button
           href="#"
