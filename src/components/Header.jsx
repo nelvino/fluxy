@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-
+import logoFluxy from "../assets/hero/logoFluxy.png"
 import { brainwave } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
@@ -31,13 +31,13 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
+      className={`fixed top-0 left-0 w-full z-50 lg:bg-n-8/90 lg:backdrop-blur-sm ${
         openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
       }`}
     >
-      <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
+      <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4 bg-fluxyPurple">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={brainwave} width={190} height={40} alt="Brainwave" />
+          <img src={logoFluxy} width={190} height={40} alt="logoFluxy" />
         </a>
 
         <nav
@@ -67,14 +67,14 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <a
+        {/* <a
           href="#signup"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New account
-        </a>
+        </a> */}
         <Button className="hidden lg:flex" href="#login">
-          Sign in
+          INGRESAR
         </Button>
 
         <Button

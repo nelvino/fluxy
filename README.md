@@ -101,6 +101,23 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
+In order to work with a local environment and see the local changes made in the marketing site, we need to: <br />
+
+// Install mkcert for creating a valid certificate  
+        (Mac OS):  
+          $ brew install mkcert  
+        (Windows): use Chocolatey  
+          $ choco install mkcert  
+        Then continue with:  
+          $ mkcert -install  
+          $ mkcert localhost  
+        
+// Then install and run the proxy
+
+          $ npm install -g local-ssl-proxy
+          $ local-ssl-proxy --source 5174 --target 5173 --cert localhost.pem --key localhost-key.pem
+
+
 ## <a name="snippets">🕸️ Snippets</a>
 
 <details>

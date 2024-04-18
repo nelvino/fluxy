@@ -7,6 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
+        fluxyPurple: "#49148A",
+        fluxyWhite: "#FFFFFF",
+        fluxyDarkGrey: "#788183",
+        fluxyLightGrey: "#DOD3DS",
+        fluxyOrange: "#FC4B08",
+        fluxyAqua: "#00DBBB",
         color: {
           1: "#AC6AFF",
           2: "#FFC876",
@@ -35,6 +41,7 @@ export default {
         },
       },
       fontFamily: {
+        fluxyCustomFontCalibre: "var(--fluxyCustomFontCalibre)",
         sans: ["var(--font-sora)", ...fontFamily.sans],
         code: "var(--font-code)",
         grotesk: "var(--font-grotesk)",
