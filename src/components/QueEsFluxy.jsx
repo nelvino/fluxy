@@ -43,21 +43,38 @@ const QueEsFluxy = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Super Funktional Training</h4>
-                <p className="body-2 mb-[3rem] text-n-3">
+                <h4 className="h4 mb-4 text-fluxyPurple bg-white p-3 rounded-xl">Super Funktional Training</h4>
+                <p className="body-2 mb-[3rem] text-fluxyPurple bg-white p-3 rounded-xl">
                   En Fluxy estamos convencidos de que: It’s all about the
                   Journey! Te invitamos a acompañarnos en este periplo común
                   transformador...
                 </p>
               </div>
-
-              {/* <PhotoChatMessage /> */}
             </div>
 
-            <div className="p-4 bg-white rounded-3xl overflow-hidden lg:min-h-[46rem]">
+            <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
+              <div className="absolute inset-0">
+                <img
+                  src={fluxyNutricion}
+                  className="h-full w-full object-cover"
+                  width={630}
+                  height={750}
+                  alt="fluxyNutricion"
+                />
+              </div>
+
+              <div className="absolute inset-0 flex flex-col justify-start p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
+                <h4 className="h4 mb-4 bg-fluxyPurple p-3 rounded-xl">Fluxy Lifestyle</h4>
+                <p className="body-2 mb-[3rem] text-white bg-fluxyPurple p-3 rounded-xl">
+                En Fluxy somos mucho mas que un gimnasio. Veni y aprende a cambiar tus habitos por completo! 
+                </p>
+              </div>
+            </div>
+
+            {/* <div className="p-4 bg-white rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 font-GoldplayBold xl:px-8 text-fluxyPurple">
-                <h4 className="h4 mb-4 font-F text-gray-500">Fluxy Lifestyle</h4>
-                <p className="body-2 mb-[2rem] text-n-3">
+                <h4 className="h4 mb-4 text-fluxyPurple">Fluxy Lifestyle</h4>
+                <p className="body-2 mb-[2rem] text-fluxyPurple">
                  En Fluxy somos mucho mas que un gimnasio. Veni y aprende a cambiar tus habitos por completo! 
                 </p>
               </div>
@@ -70,11 +87,8 @@ const QueEsFluxy = () => {
                   height={400}
                   alt="fluxy avion"
                 />
-
-                {/* <VideoChatMessage />
-                <VideoBar /> */}
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* <Gradient /> */}
