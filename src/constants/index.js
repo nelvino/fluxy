@@ -61,12 +61,12 @@ export const navigation = [
   //   url: "#signup",
   //   onlyMobile: true,
   // },
-  {
-    id: "5",
-    title: "ingresar",
-    url: "#login",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "5",
+  //   title: "ingresar",
+  //   url: "#login",
+  //   onlyMobile: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];

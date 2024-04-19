@@ -1,11 +1,13 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-import logoFluxy from "../assets/hero/logoFluxy.png"
+import logoFluxy from "../assets/hero/logoFluxy.png";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
+import Section from "./Section";
+import { socials } from "../constants";
 
 const Header = () => {
   const pathname = useLocation();
@@ -44,7 +46,7 @@ const Header = () => {
             openNavigation ? "flex" : "hidden"
           } fixed top-[5rem] text-white left-0 right-0 bottom-0 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
         >
-          <div className="relative z-2 flex flex-col items-start text-white justify-center m-auto lg:flex-row">
+          <div className="relative z-2 flex flex-col items-center text-white justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
               <a
                 key={item.id}
@@ -61,17 +63,52 @@ const Header = () => {
                 {item.title}
               </a>
             ))}
+            <Button className="flex lg:hidden mt-5" href="#login">
+              INGRESAR
+            </Button>
+            <Section crosses className="!px-0 !py-10 flex lg:hidden">
+              <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
+                <ul className="flex gap-5 flex-wrap">
+                  {socials.map((item) => (
+                    <a
+                      key={item.id}
+                      href={item.url}
+                      target="_blank"
+                      className="flex items-center justify-center w-10 h-10 border bg-white rounded-full transition-colors hover:bg-n-6"
+                    >
+                      <img
+                        src={item.iconUrl}
+                        width={16}
+                        height={16}
+                        alt={item.title}
+                      />
+                    </a>
+                  ))}
+                </ul>
+                <div>
+                  <p className="block caption text-white">
+                    © {new Date().getFullYear()}. Todos los derechos reservados
+                    por Fluxy.
+                  </p>
+                </div>
+              </div>
+            </Section>
           </div>
 
           <HamburgerMenu />
         </nav>
-
-        {/* <a
-          href="#signup"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
-        >
-          New account
-        </a> */}
+        <ul className="lg:flex gap-5 flex-wrap mr-10 hidden">
+          {socials.map((item) => (
+            <a
+              key={item.id}
+              href={item.url}
+              target="_blank"
+              className="flex items-center justify-center w-10 h-10 border bg-white rounded-full transition-colors hover:bg-n-6"
+            >
+              <img src={item.iconUrl} width={16} height={16} alt={item.title} />
+            </a>
+          ))}
+        </ul>
         <Button className="hidden lg:flex" href="#login">
           INGRESAR
         </Button>
