@@ -2,6 +2,7 @@ import { background, curve, heroBackground, robot } from "../assets";
 import logoFluxy from "../assets/hero/fluxy-logo-transparent.svg";
 import subiteSlogan from "../assets/hero/subite-y-entrena-volando.svg";
 import superFUNKtional from "../assets/hero/superFUNKtional.svg";
+import fluxyNeon from "../assets/hero/fluxy-neon.png";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -17,11 +18,11 @@ const Hero = () => {
 
   return (
     <Section
-      className="h-screen pt-[12rem] -mt-[5.25rem] mb-20"
+      className="h-screen pt-[12rem] -mt-[5.25rem]"
       // crosses
       // crossesOffset="lg:translate-y-[5.25rem]"
       // customPaddings
-      id="hero"
+      id="home"
     >
       <div className="container md:pt-10 lg:pt-20 lg:mb-20">
         <img

@@ -8,15 +8,29 @@
 
 }
 
+@font-face {
+  font-family: 'FluxyCustomFontGoldplayBold';
+  src: url('../src/fonts/Goldplay/Goldplay/GoldplayBold.otf') format('opentype');
+
+}
+
+@font-face {
+  font-family: 'FluxyCustomFontGoldplaySemiBold';
+  src: url('../src/fonts/Goldplay/Goldplay/GoldplaySemiBold.otf') format('opentype');
+
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --font-calibre: "fluxyCustomFontCalibre, sans-serif"
-  /* --font-sora: "Sora", sans-serif;
+  --font-calibre: "fluxyCustomFontCalibre, sans-serif";
+  --font-GoldplayBold: "FluxyCustomFontGoldplayBold, sans-serif";
+  --font-GoldplaySemiBold: "FluxyCustomFontGoldplaySemiBold, sans-serif";
+  --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;
-  --font-grotesk: "Space Grotesk", sans-serif; */
+  --font-grotesk: "Space Grotesk", sans-serif;
   /* color-scheme: dark; */
   background-color: #49148A;
 }
@@ -27,7 +41,7 @@
 
 @layer base {
   body {
-    @apply font-fluxyCustomFontCalibre bg-n-8 text-n-1 text-base;
+    @apply font-fluxyCustomFontCalibre bg-fluxyPurple text-n-1 text-base;
   }
 }
 

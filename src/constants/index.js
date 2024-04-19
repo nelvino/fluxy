@@ -36,27 +36,25 @@ import {
   yourlogo,
 } from "../assets";
 
+import fluxyAvion from "../assets/hero/fluxy-avion.png"
+import fluxyNeon from "../assets/hero/fluxy-neon.png"
+
 export const navigation = [
   {
     id: "0",
     title: "Que es Fluxy",
-    url: "#features",
+    url: "#fluxy",
+  },
+  {
+    id: "1",
+    title: "Mobile App",
+    url: "#mobileApp",
   },
   // {
-  //   id: "1",
-  //   title: "Pricing",
-  //   url: "#pricing",
+  //   id: "2",
+  //   title: "Fotos",
+  //   url: "#fotos",
   // },
-  {
-    id: "2",
-    title: "Descarga la App",
-    url: "#how-to-use",
-  },
-  {
-    id: "3",
-    title: "Fotos",
-    url: "#roadmap",
-  },
   // {
   //   id: "4",
   //   title: "New account",
@@ -78,17 +76,19 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "El usuario puede loguearse y bookear las clases que quira.",
+  "Ver abonos disponibles.",
+  "Realizar pagos.",
 ];
 
 export const brainwaveServicesIcons = [
+  fluxyNeon,
   recording03,
   recording01,
   disc02,
   chromecast,
   sliders04,
+  fluxyAvion,
 ];
 
 export const roadmap = [
@@ -246,9 +246,9 @@ export const benefits = [
     id: "0",
     title: "Ask anything",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    backgroundUrl: "./src/assets/hero/fluxy-avion.png",
+    iconUrl: fluxyAvion,
+    imageUrl: fluxyAvion,
   },
   {
     id: "1",

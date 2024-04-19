@@ -1,5 +1,7 @@
 import { benefits } from "../constants";
 import subiteSlogan from "../assets/hero/subite-y-entrena-volando.svg";
+import fluxyAvion from "../assets/hero/fluxy-avion.png"
+import fluxyNeon from "../assets/hero/fluxy-neon.png"
 import Heading from "./Heading";
 import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
@@ -8,19 +10,12 @@ import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
-    <Section id="features">
+    <Section id="benefits">
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
           title="superFUNKtional"
         />
-        <img
-            className="mx-auto mb-10"
-            src={subiteSlogan}
-            width={624}
-            height={10}
-          />
-
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div

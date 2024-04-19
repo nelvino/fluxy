@@ -42,6 +42,8 @@ export default {
       },
       fontFamily: {
         fluxyCustomFontCalibre: "var(--fluxyCustomFontCalibre)",
+        FluxyCustomFontGoldplayBold: "var(--FluxyCustomFontGoldplayBold)",
+        FluxyCustomFontGoldplaySemiBold: "var(--FluxyCustomFontGoldplaySemiBold)",
         sans: ["var(--font-sora)", ...fontFamily.sans],
         code: "var(--font-code)",
         grotesk: "var(--font-grotesk)",
@@ -89,7 +91,7 @@ export default {
             {},
         },
         ".h1": {
-          "@apply font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
+          "@apply font-FluxyCustomFontGoldplayBold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
             {},
         },
         ".h2": {
@@ -100,7 +102,7 @@ export default {
           "@apply text-[2rem] leading-normal md:text-[2.5rem]": {},
         },
         ".h4": {
-          "@apply text-[2rem] leading-normal": {},
+          "@apply font-fluxyCustomFontCalibre text-[2rem] leading-normal": {},
         },
         ".h5": {
           "@apply text-2xl leading-normal": {},

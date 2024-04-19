@@ -199,7 +199,7 @@ export default {
       fontFamily: {
         sans: ["var(--font-sora)", ...fontFamily.sans],
         code: "var(--font-code)",
-        grotesk: "var(--font-grotesk)",
+        grotesk: "var(--)",
       },
       letterSpacing: {
         tagline: ".15em",
@@ -280,7 +280,7 @@ export default {
           "@apply text-sm": {},
         },
         ".tagline": {
-          "@apply font-grotesk font-light text-xs tracking-tagline uppercase":
+          "@apply font-light text-xs tracking-tagline uppercase":
             {},
         },
         ".quote": {
@@ -317,7 +317,7 @@ export default {
 :root {
   --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;
-  --font-grotesk: "Space Grotesk", sans-serif;
+  /* --font-grotesk: "Space Grotesk", sans-serif; */
 }
 
 * {
@@ -445,15 +445,15 @@ export const navigation = [
     title: "Features",
     url: "#features",
   },
-  {
-    id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
+  // {
+  //   id: "1",
+  //   title: "Pricing",
+  //   url: "#pricing",
+  // },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "app",
+    url: "#app",
   },
   {
     id: "3",
