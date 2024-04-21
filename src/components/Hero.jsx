@@ -57,7 +57,7 @@ const Hero = () => {
           height={10}
         />
       </div>
-      <div className="container relative mx-auto text-center">
+      <div className="container relative mx-auto text-center pb-2 z-10">
         <button
           href="#"
           className="mx-auto border-2 border-white rounded-xl rounded-tr-2xl shadow-lg px-5 py-2 hover:bg-gray-200 hover:text-fluxyPurple"
@@ -65,7 +65,7 @@ const Hero = () => {
           PEDI TU CLASE GRATIS!
         </button>
       </div>
-      <div className="flex flex-col items-end -translate-y-20 md:mr-10">
+      <div className="flex flex-col items-end -translate-y-20 md:mr-10 z-0">
         <img
           className="mb-10 px-10 md:px-2 self-end"
           src={litteLoop}
