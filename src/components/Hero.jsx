@@ -57,7 +57,7 @@ const Hero = () => {
           height={10}
         />
       </div>
-      <div className="container relative mx-auto text-center pb-2 z-10">
+      <div className="container relative mx-auto text-center pb-5 md:pb-2 z-10">
         <button
           href="#"
           className="mx-auto border-2 border-white rounded-xl rounded-tr-2xl shadow-lg px-5 py-2 hover:bg-gray-200 hover:text-fluxyPurple"
