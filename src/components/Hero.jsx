@@ -1,6 +1,7 @@
 import { background, curve, heroBackground, robot } from "../assets";
 import logoFluxy from "../assets/hero/fluxy-logo-transparent.svg";
 import subiteSlogan from "../assets/hero/subite-y-entrena-volando.svg";
+import litteLoop from "../assets/hero/little-loop.svg";
 import superFUNKtional from "../assets/hero/superFUNKtional.svg";
 import fluxyNeon from "../assets/hero/fluxy-neon.png";
 import Button from "./Button";
@@ -63,6 +64,14 @@ const Hero = () => {
         >
           PEDI TU CLASE GRATIS!
         </button>
+      </div>
+      <div className="flex flex-col items-end -translate-y-20 md:mr-10">
+        <img
+          className="mb-10 px-10 md:px-2 self-end"
+          src={litteLoop}
+          width={624}
+          height={10}
+        />
       </div>
     </Section>
   );
