@@ -27,7 +27,7 @@ const Hero = () => {
     >
       <div className="container md:pt-10 lg:pt-20 lg:mb-20">
         <img
-          className="mx-auto mb-10 w-full"
+          className="mx-auto mb-10 w-full stroke-cyan-500"
           src={superFUNKtional}
           width={624}
           height={10}
@@ -45,6 +45,7 @@ const Hero = () => {
           className="mx-auto mb-10"
           src={logoFluxy}
           width={524}
+        
           // height={10}
         />
       </div>
@@ -66,8 +67,9 @@ const Hero = () => {
         </button>
       </div>
       <div className="flex flex-col items-end -translate-y-20 md:mr-10 z-0">
+      
         <img
-          className="mb-10 px-10 md:px-2 self-end"
+          className="mb-10 px-10 md:px-2 self-end "
           src={litteLoop}
           width={624}
           height={10}
