@@ -19,7 +19,7 @@ import Generating from "./Generating";
 const QueEsFluxy = () => {
   return (
     <Section id="fluxy">
-      <div className="container mt-10 sm:mt-20 pt-10 text-white ">
+      <div className="container mt-5 sm:mt-10 text-white ">
         <div className="max-w-[50rem] mx-auto mb-12 lg:mb-20 text-center">
         <h1 className="text-4xl mb-10">Sistema Comprobado</h1>
         <h4 className="text-2xl">La ciencia y los resultados obtenidos nos avalan!</h4>

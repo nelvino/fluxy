@@ -34,8 +34,9 @@ const MobileApp = () => {
                 src={mobileApp}
               />
             </div>
-
-            <div className="relative z-1 max-w-[17rem] ml-auto bg-fluxyPurple/70 p-5 rounded-xl">
+            
+            {/* max-w-[17rem] */}
+            <div className="relative z-1 ml-auto bg-fluxyPurple/70 p-5 rounded-xl"> 
               <h4 className="h4 mb-4">
                 Todo en una aplicación para nuestros miembros!
               </h4>

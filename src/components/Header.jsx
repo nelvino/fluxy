@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-import logoFluxy from "../assets/hero/logoFluxy.png";
+import logoFluxy from "../assets/hero/fluxy-logo.svg";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
@@ -32,19 +32,19 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 text-white w-full z-50 lg:bg-n-8/90 lg:backdrop-blur-sm  ${
-        openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
+      className={`fixed top-0 left-0 text-white w-full z-50 pt-2 ${
+        openNavigation ? "bg-fluxyPurple" : "bg-fluxyPurple"
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4 bg-fluxyPurple">
         <a className="block w-[12rem] xl:mr-8" href="#home">
-          <img src={logoFluxy} width={190} height={40} alt="logoFluxy" />
+          <img src={logoFluxy} width={120} alt="logoFluxy" />
         </a>
 
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
-          } fixed top-[5rem] mt-5 text-white left-0 right-0 bottom-0 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
+          } fixed my-2.5 top-[5rem] text-white left-0 right-0 bottom-0 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
         >
           <div className="relative z-2 flex flex-col items-center text-white justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
@@ -66,25 +66,31 @@ const Header = () => {
             <Button className="flex lg:hidden mt-5" href="#login">
               INGRESAR
             </Button>
-            <Section crosses className="!px-0 !py-10 flex lg:hidden">
+            <Section crosses className="!px-0 !pt-10 !pb-5 flex lg:hidden">
               <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
-                <ul className="flex gap-5 flex-wrap">
-                  {socials.map((item) => (
-                    <a
-                      key={item.id}
-                      href={item.url}
-                      target="_blank"
-                      className="flex items-center justify-center w-10 h-10 border bg-white rounded-full transition-colors hover:bg-gray-500"
-                    >
-                      <img
-                        src={item.iconUrl}
-                        width={16}
-                        height={16}
-                        alt={item.title}
-                      />
-                    </a>
-                  ))}
-                </ul>
+                <div className="flex gap-2 flex-wrap">
+                  <ul className="flex gap-2 flex-wrap">
+                    {socials.map((item) => (
+                      <a
+                        key={item.id}
+                        href={item.url}
+                        target="_blank"
+                        className="flex items-center justify-center w-10 h-10 border bg-white rounded-full transition-colors hover:bg-gray-500"
+                      >
+                        <img
+                          src={item.iconUrl}
+                          width={16}
+                          height={16}
+                          alt={item.title}
+                        />
+                      </a>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </Section>
+            <Section crosses className="!px-0 !py-5 flex lg:hidden">
+              <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
                 <div>
                   <p className="block caption text-white">
                     © {new Date().getFullYear()}. Todos los derechos reservados
@@ -97,7 +103,7 @@ const Header = () => {
 
           <HamburgerMenu />
         </nav>
-        <ul className="lg:flex gap-5 flex-wrap mr-10 hidden">
+        <ul className="lg:flex gap-3 flex-wrap mr-10 hidden">
           {socials.map((item) => (
             <a
               key={item.id}
