@@ -8,6 +8,7 @@ import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import QueEsFluxy from "./components/QueEsFluxy";
 import MobileApp from "./components/MobileApp";
+import WhatsAppIcon from './components/WhatsAppIcon';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         {/* <Pricing /> */}
         {/* <Roadmap /> */}
         <Footer />
+        <WhatsAppIcon />
       </div>
 
       <ButtonGradient />
