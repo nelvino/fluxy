@@ -1,13 +1,9 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import subiteSlogan from "../assets/hero/subite-y-entrena-volando.svg";
 import appStoreIcon from "../assets/mobileApp/Download_on_the_App_Store_Badge_ES_RGB_blk_100217.svg";
 import playStoreIcon from "../assets/mobileApp/google-play-badge-es.png";
-import { service1, service2, service3, check } from "../assets";
-import fluxyAvion from "../assets/hero/fluxy-avion.png";
+import { check } from "../assets";
 import mobileApp from "../assets/mobileApp/mobile-app.svg";
-import fluxyFun from "../assets/hero/fluxy-fun.svg";
-import fluxyNutricion from "../assets/hero/fluxy-nutricion.svg";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
   PhotoChatMessage,
@@ -34,8 +30,8 @@ const MobileApp = () => {
             />
           </div>
 
-          <div className="absolute inset-0 flex flex-col justify-end p-8 lg:p-15 m-auto items-center">
-            <div className="absolute text-white bg-fluxyPurple/70 p-3 rounded-xl">
+          <div className="absolute inset-0 flex flex-col justify-end p-8 lg:p-15 m-auto items-center bg-fluxyPurple/70">
+            <div className="absolute text-white p-3 rounded-xl">
               <h4 className="h4 text-white p-3 rounded-xl mt-10">
                 Todo en una aplicación para nuestros miembros!
               </h4>
