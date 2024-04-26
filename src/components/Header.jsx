@@ -63,7 +63,7 @@ const Header = () => {
                 {item.title}
               </a>
             ))}
-            <Button className="flex lg:hidden mt-5" href="#login">
+            <Button className="flex lg:hidden mt-5" href="#mobileApp">
               INGRESAR
             </Button>
             <Section crosses className="!px-0 !pt-10 !pb-5 flex lg:hidden">
@@ -115,7 +115,7 @@ const Header = () => {
             </a>
           ))}
         </ul>
-        <Button className="hidden lg:flex" href="#login">
+        <Button className="hidden lg:flex" href="#mobileApp">
           INGRESAR
         </Button>
 

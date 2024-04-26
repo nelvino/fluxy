@@ -1,21 +1,16 @@
 import { background, curve, heroBackground, robot } from "../assets";
-import logoFluxy from "../assets/hero/fluxy-logo-transparent.svg";
-import subiteSlogan from "../assets/hero/subite-y-entrena-volando.svg";
 import subiteSloganPurple from "../assets/hero/subite-y-entrena-volando-purple.svg";
-import litteLoop from "../assets/hero/little-loop.svg";
-import superFUNKtional from "../assets/hero/superFUNKtional.svg";
 import superFUNKtionalPurple from "../assets/hero/superFUNKtional-purple.svg";
-import fluxyNeon from "../assets/hero/fluxy-neon.png";
-import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
-import Generating from "./Generating";
-import Notification from "./Notification";
-import CompanyLogos from "./CompanyLogos";
 import HeroCarousel from "./HeroCarousel";
+import React from "react";
+import { Link } from "react-router-dom";
+
+const WHATSAPP_URL = "https://wa.me/+5491136949578"; // Our mobile number
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -46,21 +41,15 @@ const Hero = () => {
         />
       </div>
       <div className="mx-auto text-center pb-2 z-10">
-        <button
-          href="#"
-          className="mx-auto border-2 border-white bg-fluxyPurple rounded-xl rounded-tr-2xl shadow-lg px-5 py-2 hover:bg-fluxyPurple/80 hover:text-white"
-        >
-          PEDI TU CLASE GRATIS!
-        </button>
+        <Link to={WHATSAPP_URL} target="_blank" className=" ">
+          <button
+            href="#"
+            className="mx-auto border-2 border-white bg-fluxyPurple rounded-xl rounded-tr-2xl shadow-lg px-5 py-2 hover:bg-fluxyPurple/80 hover:text-white"
+          >
+            PEDI TU CLASE GRATIS!
+          </button>
+        </Link>
       </div>
-      {/* <div className="flex flex-col items-end -translate-y-20 md:mr-10 z-0">
-        <img
-          className="px-10 md:px-2 self-end -translate-y-20"
-          src={litteLoop}
-          width={624}
-          height={10}
-        />
-      </div> */}
     </Section>
   );
 };

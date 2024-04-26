@@ -76,7 +76,7 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "El usuario puede loguearse y bookear las clases que quira.",
+  "El usuario puede loguearse y bookear las clases que quiera.",
   "Ver abonos disponibles.",
   "Realizar pagos.",
 ];
