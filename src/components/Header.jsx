@@ -44,7 +44,7 @@ const Header = () => {
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
-          } fixed my-2.5 top-[5rem] text-white left-0 right-0 bottom-0 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
+          } fixed my-2.5 mb-0 top-[5rem] text-white left-0 right-0 bottom-0 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
         >
           <div className="relative z-2 flex flex-col items-center text-white justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
@@ -63,9 +63,9 @@ const Header = () => {
                 {item.title}
               </a>
             ))}
-            <Button className="flex lg:hidden mt-5" href="#mobileApp">
+            {/* <Button className="flex lg:hidden mt-5" href="#mobileApp">
               INGRESAR
-            </Button>
+            </Button> */}
             <Section crosses className="!px-0 !pt-10 !pb-5 flex lg:hidden">
               <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
                 <div className="flex gap-2 flex-wrap">

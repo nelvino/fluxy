@@ -300,12 +300,12 @@ export const socials = [
     id: "0",
     title: "Instagram",
     iconUrl: instagram,
-    url: "www.instagram.com/fluxy",
+    url: "https://www.instagram.com/fluxy.caballito/",
   },
-  {
-    id: "1",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "www.facebook.com/fluxy",
-  },
+  // {
+  //   id: "1",
+  //   title: "Facebook",
+  //   iconUrl: facebook,
+  //   url: "www.facebook.com/fluxy",
+  // },
 ];
