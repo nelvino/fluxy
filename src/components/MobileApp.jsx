@@ -17,7 +17,7 @@ import Generating from "./Generating";
 const MobileApp = () => {
   return (
     <Section id="mobileApp">
-      <h4 className="h4 mb-5 md:mb-10 mx-auto text-center">Aplicación Mobil</h4>
+      <h4 className="h4 mb-5 md:mb-10 mx-auto text-center text-fluxyPurple">Aplicación Mobil</h4>
       <div className="container">
         <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden my-5">
           <div className="absolute inset-0">

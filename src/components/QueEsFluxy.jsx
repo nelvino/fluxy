@@ -19,7 +19,7 @@ import Generating from "./Generating";
 const QueEsFluxy = () => {
   return (
     <Section id="fluxy">
-      <div className="container mt-5 sm:mt-10 text-white ">
+      <div className="container mt-5 sm:mt-10 text-fluxyPurple ">
         <div className="max-w-[50rem] mx-auto mb-12 lg:mb-20 text-center">
         <h1 className="text-4xl mb-10">Sistema Comprobado</h1>
         <h4 className="text-2xl">La ciencia y los resultados obtenidos nos avalan!</h4>
@@ -64,7 +64,7 @@ const QueEsFluxy = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-start p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4 bg-fluxyPurple p-3 rounded-xl">Fluxy Lifestyle</h4>
+                <h4 className="h4 mb-4 bg-fluxyPurple text-white p-3 rounded-xl">Fluxy Lifestyle</h4>
                 <p className="body-2 mb-[3rem] text-white bg-fluxyPurple p-3 rounded-xl">
                 En Fluxy somos mucho mas que un gimnasio. Veni y aprende a cambiar tus habitos por completo! 
                 </p>

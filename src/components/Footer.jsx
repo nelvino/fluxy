@@ -4,7 +4,7 @@ import { socials } from "../constants";
 
 const Footer = () => {
   return (
-    <Section crosses className="!px-0 !py-10">
+    <Section crosses className="!px-0 !py-10 bg-fluxyPurple">
       <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
         <p className="caption text-white lg:block">
           © {new Date().getFullYear()}. Todos los derechos reservados por Fluxy.

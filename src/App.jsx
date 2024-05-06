@@ -13,7 +13,7 @@ import WhatsAppIcon from './components/WhatsAppIcon';
 const App = () => {
   return (
     <>
-      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden bg-fluxyPurple">
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden bg-white">
         <Header />
         <Hero />
         <QueEsFluxy />
