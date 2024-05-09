@@ -10,7 +10,7 @@ import Carousel_Smile from "../assets/carousel/Carousel_Smile.jpg";
 import Carousel_Subite from "../assets/carousel/Carousel_Subite.jpg";
 import Carousel_Superfunktional from "../assets/carousel/Carousel_Superfunktional.jpg";
 
-import Carousel_Hero_Mobile from "../assets/carousel/Carousel_Hero_Mobile.jpg";
+import Carousel_Hero_Mobile from "../assets/carousel/Carousel_Hero_M.jpg";
 import { Link } from "react-router-dom";
 
 import { AnimateIn } from "./design/AnimateIn.jsx";
