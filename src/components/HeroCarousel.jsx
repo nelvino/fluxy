@@ -3,6 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { Carousel } from "react-bootstrap"
 import fluxyLogoSvg from "../assets/hero/fluxy-logo.svg";
 import fluxyLogoPurpleSvg from "../assets/hero/fluxy-logo-purple.svg";
+import Carousel_Bike from "../assets/carousel/Carousel_Bike.jpg";
+import Carousel_Fluxy_Logo from "../assets/carousel/Carousel_Hero.jpg";
+import Carousel_Hands from "../assets/carousel/Carousel_Hands.jpg";
+import Carousel_Russian_Twists from "../assets/carousel/Carousel_ Russian_Twist.jpg";
+import Carousel_Smile from "../assets/carousel/Carousel_Smile.jpg";
+import Carousel_Subite_Nubes from "../assets/carousel/Carousel_Subite.jpg";
+import Carousel_Superfunktional_Image from "../assets/carousel/Carousel_Superfunktional.jpg";
+
 import { AnimateIn } from "../components/design/AnimateIn.jsx"
 
 const HeroCarousel = () => (
@@ -36,7 +44,7 @@ const HeroCarousel = () => (
               <div direction="up" className="w-full px-4">
                 <img
                   className="max-h-64 mx-auto"
-                  src={fluxyLogoPurpleSvg}
+                  src={Carousel_Bike}
                   alt="fluxyLogoPurpleSvg"
                 ></img>
               </div>
@@ -49,7 +57,7 @@ const HeroCarousel = () => (
               <div direction="up" className="w-full px-4">
                 <img
                   className="max-h-64 mx-auto"
-                  src={fluxyLogoPurpleSvg}
+                  src={Carousel_Fluxy_Logo}
                   alt="fluxyLogoPurpleSvg"
                 ></img>
               </div>
@@ -62,7 +70,59 @@ const HeroCarousel = () => (
               <div direction="up" className="w-full px-4">
                 <img
                   className="max-h-64 mx-auto"
-                  src={fluxyLogoPurpleSvg}
+                  src={Carousel_Hands}
+                  alt="fluxyLogoPurpleSvg"
+                ></img>
+              </div>
+            </div>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item className="slideHeight">
+          <div className="py-5">
+            <div className="container">
+              <div direction="up" className="w-full px-4">
+                <img
+                  className="max-h-64 mx-auto"
+                  src={Carousel_Russian_Twists}
+                  alt="fluxyLogoPurpleSvg"
+                ></img>
+              </div>
+            </div>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item className="slideHeight">
+          <div className="py-5">
+            <div className="container">
+              <div direction="up" className="w-full px-4">
+                <img
+                  className="max-h-64 mx-auto"
+                  src={Carousel_Superfunktional_Image}
+                  alt="fluxyLogoPurpleSvg"
+                ></img>
+              </div>
+            </div>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item className="slideHeight">
+          <div className="py-5">
+            <div className="container">
+              <div direction="up" className="w-full px-4">
+                <img
+                  className="max-h-64 mx-auto"
+                  src={Carousel_Subite_Nubes}
+                  alt="fluxyLogoPurpleSvg"
+                ></img>
+              </div>
+            </div>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item className="slideHeight">
+          <div className="py-5">
+            <div className="container">
+              <div direction="up" className="w-full px-4">
+                <img
+                  className="max-h-64 mx-auto"
+                  src={Carousel_Smile}
                   alt="fluxyLogoPurpleSvg"
                 ></img>
               </div>

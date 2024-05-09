@@ -9,13 +9,15 @@ import Roadmap from "./components/Roadmap";
 import QueEsFluxy from "./components/QueEsFluxy";
 import MobileApp from "./components/MobileApp";
 import WhatsAppIcon from './components/WhatsAppIcon';
+import HeroCarouselFullScreen from "../src/components/HeroCarouselFullScreen";
 
 const App = () => {
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden bg-white">
         <Header />
-        <Hero />
+        <HeroCarouselFullScreen />
+        {/* <Hero /> */}
         <QueEsFluxy />
         <MobileApp />
         {/* <Benefits /> */}

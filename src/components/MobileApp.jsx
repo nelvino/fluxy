@@ -53,7 +53,7 @@ const MobileApp = () => {
               <div className="grid grid-cols-2 mb-1 justify-items-center items-center">
                 <div>
                   <a
-                    href="https://play.google.com/store/apps/details?id=deportnet.apps.fluxy"
+                    href="https://apps.apple.com/us/app/fluxy/id6499588031"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex justify-center items-center"
