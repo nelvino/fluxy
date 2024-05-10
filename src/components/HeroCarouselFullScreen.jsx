@@ -272,18 +272,18 @@ const HeroCarouselFullScreen = () => {
         </Carousel.Item>
       </Carousel>
     </div>
-    <div className=" md:hidden bg-white mx-auto my-auto items-center pb-14">
+    <div className=" md:hidden bg-white mx-auto my-auto items-center pb-28">
       <Carousel
         id="carouselHeight"
         indicators={true}
         fade={false}
         interval={3000}
         controls={false}
-        style={{ height: "92vh" }}
+        style={{ height: "85vh" }}
       >
-        <Carousel.Item className="slideHeight">
+        <Carousel.Item className="slideHeight mb-20">
         <img className="mx-auto w-full h-screen" src={Carousel_Hero_tablet} alt=""></img>
-          <Carousel.Caption className="mb-24">
+          <Carousel.Caption className="mb-40">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
                 href="#"
@@ -294,9 +294,9 @@ const HeroCarouselFullScreen = () => {
             </Link>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="slideHeight">
+        <Carousel.Item className="slideHeight mb-20">
         <img className="mx-auto w-full h-screen" src={Carousel_Hands_Mobile} alt=""></img>
-          <Carousel.Caption className="mb-24">
+          <Carousel.Caption className="mb-40">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
                 href="#"
@@ -307,9 +307,9 @@ const HeroCarouselFullScreen = () => {
             </Link>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="slideHeight">
+        <Carousel.Item className="slideHeight mb-20">
         <img className="mx-auto w-full h-screen" src={Carousel_Russian_Twist_Mobile} alt=""></img>
-          <Carousel.Caption className="mb-24">
+          <Carousel.Caption className="mb-40">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
                 href="#"
@@ -320,9 +320,9 @@ const HeroCarouselFullScreen = () => {
             </Link>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="slideHeight">
+        <Carousel.Item className="slideHeight mb-20">
         <img className="mx-auto w-full h-screen" src={Carousel_Superfunktional_tablet} alt=""></img>
-          <Carousel.Caption className="mb-24">
+          <Carousel.Caption className="mb-40">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
                 href="#"
@@ -333,9 +333,9 @@ const HeroCarouselFullScreen = () => {
             </Link>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="slideHeight">
+        <Carousel.Item className="slideHeight mb-20">
         <img className="mx-auto w-full h-screen" src={Carousel_Bike_Mobile} alt=""></img>
-          <Carousel.Caption className="mb-24">
+          <Carousel.Caption className="mb-40">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
                 href="#"
@@ -346,9 +346,9 @@ const HeroCarouselFullScreen = () => {
             </Link>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="slideHeight">
+        <Carousel.Item className="slideHeight mb-20">
         <img className="mx-auto w-full h-screen" src={Carousel_Smile_Mobile} alt=""></img>
-          <Carousel.Caption className="mb-24">
+          <Carousel.Caption className="mb-40">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
                 href="#"
@@ -359,9 +359,9 @@ const HeroCarouselFullScreen = () => {
             </Link>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="slideHeight">
+        <Carousel.Item className="slideHeight mb-20">
         <img className="mx-auto w-full h-screen" src={Carousel_Subite_tablet} alt=""></img>
-          <Carousel.Caption className="mb-24">
+          <Carousel.Caption className="mb-40">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
                 href="#"
