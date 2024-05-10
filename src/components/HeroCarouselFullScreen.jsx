@@ -75,7 +75,7 @@ const HeroCarouselFullScreen = () => {
         style={{ height: "90vh" }}
       >
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Hero} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Hero} alt=""></img>
           <Carousel.Caption className="mb-28">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -88,7 +88,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Hands} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Hands} alt=""></img>
           <Carousel.Caption className="mb-28">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -101,7 +101,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Russian_Twists} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Russian_Twists} alt=""></img>
           <Carousel.Caption className="mb-28">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -114,7 +114,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Superfunktional} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Superfunktional} alt=""></img>
           <Carousel.Caption className="mb-28">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -127,7 +127,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Bike} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Bike} alt=""></img>
           <Carousel.Caption className="mb-28">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -140,7 +140,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Smile} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Smile} alt=""></img>
           <Carousel.Caption className="mb-28">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -153,7 +153,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Subite} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Subite} alt=""></img>
           <Carousel.Caption className="mb-28">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -180,7 +180,7 @@ const HeroCarouselFullScreen = () => {
         style={{ height: "90vh" }}
       >
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Hero_tablet} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Hero_tablet} alt=""></img>
           <Carousel.Caption className="mb-24">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -193,7 +193,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Hands_tablet} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Hands_tablet} alt=""></img>
           <Carousel.Caption className="mb-24">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -206,7 +206,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Russian_Twist_tablet} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Russian_Twist_tablet} alt=""></img>
           <Carousel.Caption className="mb-24">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -219,7 +219,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Superfunktional_tablet} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Superfunktional_tablet} alt=""></img>
           <Carousel.Caption className="mb-24">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -232,7 +232,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Bike_tablet} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Bike_tablet} alt=""></img>
           <Carousel.Caption className="mb-24">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -245,7 +245,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Smile_tablet} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Smile_tablet} alt=""></img>
           <Carousel.Caption className="mb-24">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -258,7 +258,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight">
-          <img className="mx-auto h-screen" src={Carousel_Subite_tablet} alt=""></img>
+          <img className="mx-auto h-screen w-full" src={Carousel_Subite_tablet} alt=""></img>
           <Carousel.Caption className="mb-24">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
