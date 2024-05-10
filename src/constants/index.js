@@ -300,7 +300,7 @@ export const socials = [
     id: "0",
     title: "Instagram",
     iconUrl: instagram,
-    url: "https://www.instagram.com/fluxy.caballito/",
+    url: "https://www.instagram.com/fluxy.ar/",
   },
   // {
   //   id: "1",
