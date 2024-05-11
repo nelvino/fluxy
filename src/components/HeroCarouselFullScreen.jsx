@@ -22,13 +22,13 @@ import Carousel_Smile_tablet from "../assets/carousel/Carousel_Smile_1438x1079.j
 import Carousel_Subite_tablet from "../assets/carousel/Carousel_Subite_1438x1079.jpg";
 
 // Mobile view Images
-import Carousel_Hero_Mobile from "../assets/carousel/Carousel_Hero_450x1000.jpg";
-import Carousel_Bike_Mobile from "../assets/carousel/Carousel_Bike_450x1000.jpg";
-import Carousel_Superfunktional_Mobile from "../assets/carousel/Carousel_Superfunktional_450x1000.jpg";
-import Carousel_Russian_Twist_Mobile from "../assets/carousel/Carousel_Russian_Twist_450x1000.jpg";
-import Carousel_Hands_Mobile from "../assets/carousel/Carousel_Hands_450x1000.jpg";
-import Carousel_Smile_Mobile from "../assets/carousel/Carousel_Smile_450x1000.jpg";
-import Carousel_Subite_Mobile from "../assets/carousel/Carousel_Subite_450x1000.jpg";
+import Carousel_Hero_Mobile from "../assets/carousel/mobile/Hero_Logo_Mobile.jpg";
+import Carousel_Bike_Mobile from "../assets/carousel/mobile/Bike_Mobile.jpg";
+import Carousel_Superfunktional_Mobile from "../assets/carousel/mobile/Superfunktional_Mobile.jpg";
+import Carousel_Russian_Twist_Mobile from "../assets/carousel/mobile/Russian_Twist_Mobile.jpg";
+import Carousel_Hands_Mobile from "../assets/carousel/mobile/Hands_Mobile.jpg";
+import Carousel_Smile_Mobile from "../assets/carousel/mobile/Smile_Mobile.jpg";
+import Carousel_Subite_Mobile from "../assets/carousel/mobile/Subite_Mobile.jpg";
 
 
 import { Link } from "react-router-dom";
@@ -282,7 +282,7 @@ const HeroCarouselFullScreen = () => {
         style={{ height: "85vh" }}
       >
         <Carousel.Item className="slideHeight mb-20">
-        <img className="mx-auto w-full h-screen" src={Carousel_Hero_tablet} alt=""></img>
+        <img className="mx-auto w-full h-screen" src={Carousel_Hero_Mobile} alt=""></img>
           <Carousel.Caption className="mb-40">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -321,7 +321,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight mb-20">
-        <img className="mx-auto w-full h-screen" src={Carousel_Superfunktional_tablet} alt=""></img>
+        <img className="mx-auto w-full h-screen" src={Carousel_Superfunktional_Mobile} alt=""></img>
           <Carousel.Caption className="mb-40">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
@@ -360,7 +360,7 @@ const HeroCarouselFullScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="slideHeight mb-20">
-        <img className="mx-auto w-full h-screen" src={Carousel_Subite_tablet} alt=""></img>
+        <img className="mx-auto w-full h-screen" src={Carousel_Subite_Mobile} alt=""></img>
           <Carousel.Caption className="mb-40">
             <Link to={WHATSAPP_URL} target="_blank" className="">
               <button
