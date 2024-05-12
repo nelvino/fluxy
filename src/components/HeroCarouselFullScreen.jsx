@@ -36,7 +36,8 @@ import { Link } from "react-router-dom";
 
 import { AnimateIn } from "./design/AnimateIn.jsx";
 
-const WHATSAPP_URL = "https://wa.me/+5491136949578";
+// const WHATSAPP_URL = "https://wa.me/+5491136949578";
+const WHATSAPP_URL = "https://wa.me/+5491133126239";
 
 const HeroCarouselFullScreen = () => {
   const parallaxRef = useRef(null);

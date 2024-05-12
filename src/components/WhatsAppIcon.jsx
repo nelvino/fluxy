@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import WhatsAppIcon96 from '../assets/mobileApp/whatsappLogo-96.svg';
 
-const WHATSAPP_URL = "https://wa.me/+5491136949578"; // Our mobile number
+// const WHATSAPP_URL = "https://wa.me/+5491136949578";
+const WHATSAPP_URL = "https://wa.me/+5491133126239";
 
 const WhatsAppIcon = () => {
   return (

@@ -30,6 +30,17 @@ const Header = () => {
     setOpenNavigation(false);
   };
 
+  const handleLogoClick = () => {
+    if (openNavigation) {
+      setOpenNavigation(false);
+      enablePageScroll();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      setOpenNavigation(false);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
+
   return (
     <div
       className={`fixed top-0 left-0 text-white w-full z-50 pt-2 ${
@@ -37,7 +48,7 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4 bg-fluxyPurple">
-        <a className="block w-[12rem] xl:mr-8" href="#home">
+        <a className="block w-[12rem] xl:mr-8" href="#home" onClick={handleLogoClick}>
           <img src={logoFluxy} width={120} alt="logoFluxy" />
         </a>
 
