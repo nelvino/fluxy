@@ -17,7 +17,7 @@ import Generating from "./Generating";
 const MobileApp = () => {
   return (
     <Section id="mobileApp">
-      <h4 className="h4 mb-5 md:mb-10 mx-auto text-center text-fluxyPurple">Aplicación Mobil</h4>
+      <h4 className="h4 mb-5 md:mb-10 mx-auto text-center text-fluxyPurple">Aplicación Móvil</h4>
       <div className="container">
         <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden my-5">
           <div className="absolute inset-0">
@@ -36,7 +36,7 @@ const MobileApp = () => {
                 Todo en una aplicación para nuestros miembros!
               </h4>
               <p className="body-2 text-white p-3 rounded-xl">
-                Encontra los beneficios de nuestra plataforma y un sistema de
+                Encuentra los beneficios de nuestra plataforma y un sistema de
                 trabajo digital integrado:
               </p>
               <ul className="body-2 ">

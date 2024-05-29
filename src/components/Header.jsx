@@ -74,9 +74,6 @@ const Header = () => {
                 {item.title}
               </a>
             ))}
-            {/* <Button className="flex lg:hidden mt-5" href="#mobileApp">
-              INGRESAR
-            </Button> */}
             <Section crosses className="!px-0 !pt-10 !pb-5 flex lg:hidden">
               <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
                 <div className="flex gap-2 flex-wrap">
