@@ -47,7 +47,7 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Mobile App",
+    title: "Aplicación Móvil",
     url: "#mobileApp",
   },
   // {
